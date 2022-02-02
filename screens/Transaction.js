@@ -8,7 +8,6 @@ import {
   ImageBackground,
   Image,
   Alert,
-  ToastAndroid,
   KeyboardAvoidingView
 } from "react-native";
 import * as Permissions from "expo-permissions";
@@ -375,7 +374,6 @@ const styles = StyleSheet.create({
     borderWidth: 3,
     fontSize: 18,
     backgroundColor: "#5653D4",
-    fontFamily: "Rajdhani_600SemiBold",
     color: "#FFFFFF"
   },
   scanbutton: {
@@ -390,7 +388,6 @@ const styles = StyleSheet.create({
   scanbuttonText: {
     fontSize: 24,
     color: "#0A0101",
-    fontFamily: "Rajdhani_600SemiBold"
   },
   button: {
     width: "43%",
@@ -403,6 +400,5 @@ const styles = StyleSheet.create({
   buttonText: {
     fontSize: 24,
     color: "#FFFFFF",
-    fontFamily: "Rajdhani_600SemiBold"
   }
 });
